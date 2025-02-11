@@ -1,4 +1,4 @@
-package com.simpleapi.example.controller;
+package com.simpleapi.example.controllers;
 
 import com.simpleapi.example.entities.User;
 import org.springframework.http.ResponseEntity;

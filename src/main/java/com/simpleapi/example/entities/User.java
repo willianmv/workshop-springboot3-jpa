@@ -1,9 +1,15 @@
 package com.simpleapi.example.entities;
 
+import jakarta.persistence.*;
+
 import java.util.Objects;
 
+@Entity
+@Table(name = "TB_USER")
 public class User{
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private  Long id;
     private String name;
     private String email;
